@@ -5,7 +5,7 @@ require_relative "../lib/song.rb"
 require_relative "../config/environment.rb"
 
 
-song = Song.new(name: "Flash", album: "Artifical ")
+song = Song.new(name: "Flash", album: "Artifical Selection")
 puts "song name: " + song.name
 puts "song album: " + song.album
 song.save
